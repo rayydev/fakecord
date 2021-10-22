@@ -1,0 +1,87 @@
+body {
+  background-color: #23272A;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  color: #ffffff;
+}
+
+.tabs{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 355px;
+}
+
+.users{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 1760px;
+  background-color: #111;
+  overflow-x: hidden;
+  color: #FFFFFF;
+}
+.usersheader{
+  text-align: center;
+  position: static;
+
+}
+
+.you{
+  padding-left: 10px;
+}
+
+.tabs a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.tabs a:hover{
+  color: #f1f1f1;
+}
+.content{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.contentabout{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 25px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  text-align: center;
+  padding-top: 350px;
+  color: #ffffff;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1c1c1c;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+input{
+  margin-top: 750px;
+  height: 50px;
+  background: #3c3c3c3c;
+  border: none ;
+  /*font-family: 'Open Sans', sans-serif;*/
+  color: white;
+}
+button{
+  height: 23px;
+}
